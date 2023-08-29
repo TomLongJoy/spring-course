@@ -13,12 +13,16 @@
                         <property name = "属性名字" value = "属性值"/>
                         一个property只能给一个属性赋值
                     </bean>
-            2.
+            2.引用类型的注入：spring调用类的set方法
+            <bean id="xxx" class="yyy">
+                <property name="属性名称" ref="bean的id(对象名称）"/>
+            </bean>
 
     -->
 
     <bean id="myStudent" class="com.bjpowernode.ba01.Student">
         <property name="name" value="李四"/>
         <property name="age" value="31"/>
-    </bean>
+     </bean>
+
 </beans>

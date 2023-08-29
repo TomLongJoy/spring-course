@@ -3,6 +3,14 @@ package com.bjpowernode.ba01;
 public class Student {
 
 
+    public String getName() {
+        return name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
     private String name;
     private int age;
 

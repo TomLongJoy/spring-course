@@ -20,9 +20,13 @@
 
     -->
 
-    <bean id="myStudent" class="com.bjpowernode.ba01.Student">
+    <bean id="myStudent" class="com.bjpowernode.ba02.Student">
         <property name="name" value="李四"/>
         <property name="age" value="31"/>
-     </bean>
-
+        <property name="school" ref="mySchool"/>
+    </bean>
+    <bean id="mySchool" class="com.bjpowernode.ba02.School">
+        <property name="name" value="北京大学"/>
+        <property name="address" value="北京海淀区"/>
+    </bean>
 </beans>
