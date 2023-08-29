@@ -8,7 +8,9 @@
 
             引用类型的自动注入：spring框架根据某些规则可以给应用类型赋值
             不用你再给引用类型赋值，使用规则 byName,byType
-            byName(安名称注入)：
+            1.byName(安名称注入)：autowire="byName" Student类中school属性，同配置文件bean 中 id="school" ，（这个2个地方的school字符串一样，）。且这2个school是同一个类。
+            2.byType(安类型注入)
+
     -->
     <bean id="myStudent" class="com.bjpowernode.ba04.Student" autowire="byName">
         <property name="name" value="李四"/>
