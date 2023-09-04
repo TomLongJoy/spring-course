@@ -19,5 +19,5 @@
                2. 给这个新的约束文件起个名门空间 /schema/context
      -->
     <context:component-scan base-package="com.zlj.ba01"/>
-    <context:component-scan base-package="com.zlj.ba04"/>
+    <context:component-scan base-package="com.zlj.ba07"/>
 </beans>
