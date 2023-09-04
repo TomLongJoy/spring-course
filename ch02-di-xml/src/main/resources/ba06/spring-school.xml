@@ -16,6 +16,12 @@
                 2.java类中引用类型的数据类型和bean的class的值是父子关系
                 3.java类中引用类型的数据类型和bean的class的值是接口和实现类的关系。
 
+
+          ps:
+          个人感悟：
+          spring是井，创建对象是水，bean是水。
+          开始井是干涸。创建bean，就是往井里到水，用的时候直接取。
+
     -->
 
     <bean id="mySchool" class="com.bjpowernode.ba06.School">
