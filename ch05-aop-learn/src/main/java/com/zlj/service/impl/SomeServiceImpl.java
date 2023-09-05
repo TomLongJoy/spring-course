@@ -9,18 +9,18 @@ public class SomeServiceImpl implements SomeService {
     @Override
     public void doSome() {
 
-        ServiceTools.doLog();
+//        ServiceTools.doLog();
         System.out.println("执行了方法doSome()");
 
         //方法最后，提交事务
-        ServiceTools.doTrans();
+//        ServiceTools.doTrans();
     }
 
     @Override
     public void doOther() {
 
-        ServiceTools.doLog();
+//        ServiceTools.doLog();
         System.out.println("执行了方法doOther()");
-        ServiceTools.doTrans();
+//        ServiceTools.doTrans();
     }
 }
